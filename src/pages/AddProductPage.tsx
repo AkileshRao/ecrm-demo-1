@@ -33,7 +33,7 @@ const AddProductPage = () => {
     resolver: zodResolver(productSchema),
     defaultValues: {
       id: uuidv4(),
-      images: [],
+      images: ["test"],
       tags: [],
     },
   });
