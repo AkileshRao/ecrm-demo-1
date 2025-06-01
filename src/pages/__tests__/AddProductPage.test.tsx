@@ -11,7 +11,7 @@ describe("AddProductPage", () => {
       </MemoryRouter>,
     );
 
-    expect(screen.getByText("Add New Product")).toBeInTheDocument();
+    expect(screen.getByText("Add a new Product")).toBeInTheDocument();
     expect(screen.getByLabelText(/Name/i)).toBeInTheDocument();
     expect(screen.getByLabelText(/Price/i)).toBeInTheDocument();
     expect(

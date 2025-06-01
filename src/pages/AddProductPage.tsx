@@ -49,7 +49,7 @@ const AddProductPage = () => {
       onSubmit={handleSubmit(onSubmit)}
       className="max-w-xl mx-auto space-y-4 p-6"
     >
-      <h1 className="text-2xl font-bold">Add New Product</h1>
+      <h1 className="text-2xl font-bold">Add a new Product</h1>
 
       <div>
         <Label htmlFor="name" className="my-2">
