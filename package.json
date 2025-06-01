@@ -71,5 +71,10 @@
       "npm run lint",
       "npm run format"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
