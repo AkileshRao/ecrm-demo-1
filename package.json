@@ -11,7 +11,9 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "prepare": "husky",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "type-check": "tsc —noEmit",
+    "test:ci": "vitest run —passWithNoTests"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.0.1",
@@ -34,6 +36,8 @@
     "zustand": "^5.0.5"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
     "@eslint/js": "^9.25.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
@@ -45,6 +49,8 @@
     "@types/react-dom": "^19.1.2",
     "@vitejs/plugin-react": "^4.4.1",
     "class-variance-authority": "^0.7.1",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^9.25.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
