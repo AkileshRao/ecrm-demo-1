@@ -3,3 +3,6 @@ npx lint-staged
 
 echo "TYPE CHECKING"
 npx tsc --build --noEmit
+
+echo "RUNNING TESTS"
+npx vitest run --passWithNoTests
