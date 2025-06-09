@@ -12,7 +12,7 @@ interface ProductStore {
 export const useProductStore = create<ProductStore>((set) => ({
   products: [
     {
-      id: "1",
+      id: "2",
       name: "iPhone 15 Pro",
       description: "Apple's latest iPhone with titanium design.",
       price: 999,
